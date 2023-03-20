@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(58, 206, 198);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2
+{
+    background-color: rgb(38, 177, 187);
+    text-align: center;
+}
+
+:link {
+    color: beige;
+}
+
+:visited {
+    color: blanchedalmond;
+}
