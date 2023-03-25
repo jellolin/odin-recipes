@@ -4,12 +4,39 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.main-menu,
+ul,
+ol,
+p,
+h3 {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.menu-images {
+    width: 50%;
+    margin: 0px auto;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
 h1,
 h2
 {
     background-color: rgb(38, 177, 187);
     text-align: center;
+    padding: 8px;
 }
+
+
+li,
+h3,
+p {
+    padding: 8px;
+}
+
 
 :link {
     color: beige;
@@ -18,3 +45,16 @@ h2
 :visited {
     color: blanchedalmond;
 }
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+.menu-images img {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin: 20px 0px;
+}
+
